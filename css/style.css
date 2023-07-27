@@ -1,0 +1,476 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Bangers", cursive;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+#menu li > a {
+  font-family: "Bangers", cursive;
+  color: aliceblue;
+  font-size: 18px;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  max-height: 50%;
+}
+
+.carousel-caption {
+  display: flex;
+}
+
+.contacto {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 5fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: #a52a2a;
+  padding: 0px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  font-size: 40px;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.sidebar ul li a {
+  font-size: 30px;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content h2 {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: aliceblue;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.product h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.product p {
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 14px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+}
+
+.main-content2 {
+  text-align: center;
+}
+
+.texacerca {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.texacerca h2 {
+  font-family: "Bangers", cursive;
+  font-size: 40px;
+}
+
+.texacerca p {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.texacerca ol li {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Contacto {
+  text-align: center;
+}
+
+.Contacto h2 {
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.Contacto h3 {
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.Contacto legend {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.Contacto label {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.btn-wpp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: green;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wpp:hover {
+  text-decoration: none;
+  color: rgba(0, 128, 0, 0.185);
+  background: white;
+}
+
+.micuenta1 {
+  text-align: center;
+  height: 70vh;
+}
+
+.micuenta1 h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: antiquewhite;
+  font-size: 40px;
+}
+
+.micuenta1 legend {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+.micuenta1 label {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(94, 8, 8);
+  height: 10vh;
+  width: 100%;
+  clear: both;
+  content: none;
+  display: table;
+}
+
+/* modificar main conten media queries */
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+.galeria h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.imgProductos {
+  width: 100%;
+  height: auto;
+}
+
+.gridGaleria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-gap: 1em;
+}
+
+/* Galeria de imagenes */
+.SN-galeria {
+  position: relative;
+}
+
+.SneakerGaleryImage {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.SneakerGaleryImage img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.SnGaleryTITULO {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: rgba(82, 58, 52, 0.4);
+  color: var(--blanco);
+  /* Posición del texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SN-galeria:hover .SnGaleryTITULO {
+  opacity: 1;
+}
+
+.SN-galeria:hover .SneakerGaleryImage img {
+  filter: blur(2px);
+}
+
+@media (hover: none) {
+  .SnGaleryTITULO {
+    opacity: 1;
+  }
+  .SneakerGaleryImage img {
+    filter: blur(2px);
+  }
+}
+/* Bootstrap settings */
+.my-3 {
+  margin-top: 3rem !important;
+  margin-bottom: 10rem !important;
+}
+
+.fs-1 {
+  font-size: 30px !important;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.bg-dark {
+  font-size: 14px;
+  --bs-bg-opacity: 0;
+  color: whitesmoke;
+  font-family: unset;
+}
+
+/* --------CUENTAS CSS------ */
+.tituloSecundario h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+.micuenta1 {
+  display: flex;
+  margin: 4rem auto 2rem auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 90%;
+  max-width: 110rem;
+  height: 100%;
+  margin: auto;
+  gap: 1rem;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Formulario */
+.formulario {
+  grid-column: 1/13;
+  background-color: var(--primarioº);
+  width: min(60rem, 100%);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.formulario fieldset {
+  border: none;
+}
+
+.formulario legend {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.campo span {
+  color: var(--rojo);
+}
+
+.campo label {
+  display: block;
+  margin: 1.5rem 0 0.5rem 0;
+  width: 100%;
+  font-weight: 500;
+}
+
+.campo input {
+  border-radius: 0.5rem;
+  border: 1rem var(--negro);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 3rem;
+  width: 100%;
+}
+
+.campo textarea {
+  border-radius: 0.5rem;
+  border: 1rem var(--negro);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 8rem;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cuentas {
+    height: 50rem;
+  }
+  .contacto {
+    height: 50rem;
+  }
+  .formulario {
+    grid-column: 7/12;
+  }
+  .formularioIzquierda {
+    grid-column: 2/7;
+  }
+}
+.lineaDivisora {
+  border: 0px solid var(--secundario);
+  height: 0.2rem;
+  border-radius: 1rem;
+  background-color: var(--secundario);
+}
+
+.botonFormulario {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .botonFormulario {
+    text-align: left;
+    margin-left: 1.5rem;
+  }
+}
+.botonFormulario input {
+  padding: auto 2rem;
+}
+
+/* -----------------CONTACTOS----------------- */
+/* Textos */
+.textosContacto {
+  grid-column: 1/13;
+  text-align: center;
+}
+
+.textosContacto h2 {
+  color: white;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.textosContacto hr {
+  width: 30%;
+  border: 0;
+  height: 0.2rem;
+  border-radius: 1rem;
+  background-color: var(--secundario);
+}
+
+@media only screen and (min-width: 768px) {
+  .textosContacto {
+    grid-column: 2/7;
+    text-align: left;
+  }
+  .textosContacto hr {
+    margin-left: 0%;
+  }
+  .correoContacto {
+    justify-content: flex-start;
+  }
+  .botonMain {
+    margin-left: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
